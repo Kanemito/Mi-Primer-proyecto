@@ -1,0 +1,12 @@
+.logo {
+    float: left;
+    margin-right: 10px;
+    display: flex
+}
+
+.logo svg {
+    width: 32px;
+    margin-right: 10px;
+    display: flex
+}
+  

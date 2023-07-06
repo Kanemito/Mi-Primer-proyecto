@@ -1,0 +1,79 @@
+
+@import url( "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    
+   }
+
+.descripcion{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ewk_navbar {
+    background-color: rgba(0, 0, 0, 0.771) !important;
+    color: rgb(255, 254, 254);
+}
+  
+.ewk_navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+  
+.ewk_navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.551);
+    color: black;
+}
+  
+.custom-btn {
+    color: white !important;
+}
+  
+.ewk_navbar a.custom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.549) !important;
+    color: black !important;
+}
+  
+  
+.centar{
+    padding: 20%;
+}
+
+.section-background {
+    background-image: url('ruta_del_fondo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+
+.text-center {
+    text-align: center;
+  
+
+}
+
+.text-center hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+
+
+
+
